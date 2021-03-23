@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete_one_item">Delete One Item</string>
+    <string name="save_item">Save item</string>
+    <string name="calcel">Calcel</string>
+    <string name="add">add</string>
+    <string name="supplier">supplier</string>
+    <string name="available_quantity">available quantity</string>
+    <string name="price">price</string>
+    <string name="name">name</string>
+    <string name="inventory_name">inventory name</string>
+    <string name="inventory_price">inventory price</string>
+</resources>

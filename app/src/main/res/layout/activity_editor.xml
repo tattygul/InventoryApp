@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditorActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:text="image"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#888585"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <Button
+            android:id="@+id/add_image_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#888585"
+            android:text="choose an image"
+            android:layout_weight="1"
+            android:hint="@string/inventory_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/name"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            android:id="@+id/name_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="@string/inventory_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/price"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            android:id="@+id/price_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="@string/inventory_price"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/available_quantity"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            android:id="@+id/available_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="@string/available_quantity"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/supplier"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            android:id="@+id/supplier_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="supplier"/>
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="2"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:text="@string/name"-->
+    <!--            android:textSize="30sp"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:fontFamily="sans-serif-black"-->
+    <!--            tools:ignore="NestedWeights" />-->
+
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:text="@string/price"-->
+    <!--            android:textSize="30sp"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:fontFamily="sans-serif-black"/>-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:text="@string/available_quantity"-->
+    <!--            android:textSize="30sp"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:fontFamily="sans-serif-black"/>-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:text="@string/supplier"-->
+    <!--            android:textSize="30sp"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:fontFamily="sans-serif-black"/>-->
+
+    <!--    </LinearLayout>-->
+
+</LinearLayout>
